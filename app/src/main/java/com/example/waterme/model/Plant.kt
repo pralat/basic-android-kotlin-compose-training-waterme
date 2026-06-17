@@ -25,8 +25,8 @@ import kotlinx.parcelize.Parcelize
  * */
 @Parcelize
 data class Plant(
-    @StringRes val name: Int,
-    @StringRes val type: Int,
-    @StringRes val description: Int,
-    @StringRes val schedule: Int
+    @get:StringRes val name: Int,
+    @get:StringRes val type: Int,
+    @get:StringRes val description: Int,
+    @get:StringRes val schedule: Int
 ): Parcelable
